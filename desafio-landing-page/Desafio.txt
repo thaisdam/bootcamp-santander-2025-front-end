@@ -1,0 +1,1 @@
+Nesse desafio foi criada uma Landing page usando HTML e CSS sobre css developer: a trilha de css da DIO.
