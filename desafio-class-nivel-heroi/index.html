@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio - Classificador Nível de Herói</title>
+    <style>
+  
+    @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Noto+Color+Emoji&display=swap');
+
+    body {
+        font-family: 'Exo 2', sans-serif;
+        background-color: lightgoldenrodyellow;
+        margin: 0;
+        padding: 20px;
+    }
+
+    h1 {
+        color: lightpink;
+        text-align: center;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+        gap: 10px;              
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgb(255, 137, 190);
+    }
+
+    /* Estilização dos cards */
+    .card {
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        width: 100%;
+    }
+
+    input[type="text"], input[type="number"] {
+        padding: 8px;
+        margin-top: 5px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        width: 80%;
+        max-width: 200px;
+        box-sizing: border-box; 
+    }
+
+
+    button {
+        background-color: pink;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Exo 2', sans-serif;
+        width: 50%; 
+        max-width: 200px;
+    }
+    </style>
+</head>
+
+<body>
+    <h1>Classificador de Nível de Herói</h1>
+
+    <div class="container">
+        <div class="card">
+            <label for="heroName">Nome do Herói:</label>
+            <input type="text" id="heroName" name="heroName" required>
+        </div>
+        <div class="card">
+            <label for="heroLevel">Nível do Herói:</label>
+            <input type="text" id="heroLevel" name="heroLevel" required>
+        </div>
+        <button>Classificar</button>
+    </div>
+
+    <script>
+    const button = document.querySelector('button');
+    button.addEventListener('click', () => {
+        const heroName = document.getElementById('heroName').value;
+        const heroLevel = document.getElementById('heroLevel').value;
+        let level;
+
+        if (heroLevel < 1000) {
+            level = 'Ferro';
+        } else if (heroLevel >= 1001 && heroLevel <= 2000) {
+            level = 'Bronze';
+        } else if (heroLevel >= 2001 && heroLevel <= 5000) {
+            level = 'Prata';
+        } else if (heroLevel >= 5001 && heroLevel <= 7000) {
+            level = 'Ouro';
+        } else if (heroLevel >= 7001 && heroLevel <= 8000) {
+            level = 'Platina';
+        } else if (heroLevel >= 8001 && heroLevel <= 9000) {
+            level = 'Ascendente';
+        } else if (heroLevel >= 9001 && heroLevel <= 10000) {
+            level = 'Imortal';
+        } else {
+            level = 'Radiante';
+        }
+
+        alert(`O Herói de nome ${heroName} está no nível de ${level}`);
+    });
+       
+    </script>
+
+</body>
+
+</html>
