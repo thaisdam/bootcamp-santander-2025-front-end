@@ -1,0 +1,1 @@
+Este Desafio consiste em reproduzir a página da incrível plataforma do Discord colocando em prática conceitos principalmente sobre Responsividade no CSS.
