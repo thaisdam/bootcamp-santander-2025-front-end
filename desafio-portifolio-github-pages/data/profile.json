@@ -6,32 +6,33 @@
   "phone": "(34) 9 9762 5350",
   "email": "thaisthdamasceno@gmail.com",
   "skills": {
-    "hardSkills": [
-      {
-        "name": "JavaScript",
-        "logo": "https://raw.githubusercontent.com/bootcamp-santander-2025-front-end/desafio-portifolio-github-pages/main/data/imgs/js.png"
-      },
-      {
-        "name": "Java",
-        "logo": "https://raw.githubusercontent.com/bootcamp-santander-2025-front-end/desafio-portifolio-github-pages/main/data/imgs/java.png"
-      },
-      {
-        "name": "HTML",
-        "logo": "https://raw.githubusercontent.com/bootcamp-santander-2025-front-end/desafio-portifolio-github-pages/main/data/imgs/html.png"
-      },
-      {
-        "name": "CSS",
-        "logo": "https://raw.githubusercontent.com/bootcamp-santander-2025-front-end/desafio-portifolio-github-pages/main/data/imgs/css.png"
-      },
-      {
-        "name": "python",
-        "logo": "https://raw.githubusercontent.com/bootcamp-santander-2025-front-end/desafio-portifolio-github-pages/main/data/imgs/python.png"
-      },
-      {
-        "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/bootcamp-santander-2025-front-end/desafio-portifolio-github-pages/main/data/imgs/postgresql.png"
-      }
-    ],
+  "hardSkills": [
+    {
+      "name": "JavaScript",
+      "logo": "https://raw.githubusercontent.com/thaisdam/bootcamp-santander-2025-front-end/main/data/imgs/js.png"
+    },
+    {
+      "name": "Java",
+      "logo": "https://raw.githubusercontent.com/thaisdam/bootcamp-santander-2025-front-end/main/data/imgs/java.png"
+    },
+    {
+      "name": "HTML",
+      "logo": "https://raw.githubusercontent.com/thaisdam/bootcamp-santander-2025-front-end/main/data/imgs/html.png"
+    },
+    {
+      "name": "CSS",
+      "logo": "https://raw.githubusercontent.com/thaisdam/bootcamp-santander-2025-front-end/main/data/imgs/css.png"
+    },
+    {
+      "name": "Python",
+      "logo": "https://raw.githubusercontent.com/thaisdam/bootcamp-santander-2025-front-end/main/data/imgs/python.png"
+    },
+    {
+      "name": "Postgresql",
+      "logo": "https://raw.githubusercontent.com/thaisdam/bootcamp-santander-2025-front-end/main/data/imgs/postgresql.png"
+    }
+  ]
+},
     "softSkills": [
       "Empatia",
       "Criatividade",
