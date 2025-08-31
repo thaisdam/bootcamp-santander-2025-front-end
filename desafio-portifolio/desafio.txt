@@ -1,0 +1,1 @@
+Este projeto tem como objetivo desenvolver um portfólio front-end.
