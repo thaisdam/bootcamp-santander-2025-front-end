@@ -1,0 +1,67 @@
+body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #0b0f1a url("./src/assets/bg/stardust.webp") center/cover no-repeat;
+      color: #fff;
+      font-family: 'Press Start 2P', sans-serif;
+    }
+
+    .game {
+      max-width: 600px;
+      width: 100%;
+      text-align: center;
+      display: grid;
+      gap: 20px;
+    }
+
+    h1 {
+      font-size: 20px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-shadow: 0 2px 0 #000, 0 0 8px rgba(255, 255, 255, .25);
+    }
+
+    .choices {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .choice-btn {
+      cursor: pointer;
+      border: 2px solid #24304d;
+      background: #0e1220;
+      border-radius: 12px;
+      padding: 10px;
+      width: 120px;
+      height: 160px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.2s;
+    }
+
+    .choice-btn:hover {
+      transform: scale(1.05);
+    }
+
+    .choice-btn img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .result {
+      font-size: 14px;
+      background: rgba(2, 6, 23, .6);
+      padding: 12px;
+      border-radius: 8px;
+    }
+
+    .score {
+      display: flex;
+      justify-content: space-around;
+      font-size: 12px;
+    }

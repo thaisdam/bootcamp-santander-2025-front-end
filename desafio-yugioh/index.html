@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jokenpô Yu-Gi-Oh!</title>
+
+  <link rel="stylesheet" href="./src/styles/buttons.css">
+  <link rel="stylesheet" href="./src/styles/containers_and_frames.css">
+  <link rel="stylesheet" href="./src/styles/main.css">
+  <link rel="stylesheet" href="./src/styles/reset.css">
+
+</head>
+
+<body>
+  <div class="game">
+    <h1>Jokenpô Yu-Gi-Oh!</h1>
+
+    <div class="choices">
+      <button class="choice-btn" data-choice="monstro">
+        <img src="./src/assets/icons/dragon.png" alt="Monstro">
+      </button>
+      <button class="choice-btn" data-choice="magia">
+        <img src="./src/assets/icons/magician.png" alt="Magia">
+      </button>
+      <button class="choice-btn" data-choice="armadilha">
+        <img src="./src/assets/icons/exodia.png" alt="Armadilha">
+      </button>
+    </div>
+
+    <div class="result" id="result">Escolha uma carta para começar!</div>
+
+    <div class="score">
+      <span>Você: <b id="score-player">0</b></span>
+      <span>CPU: <b id="score-cpu">0</b></span>
+    </div>
+  </div>
+
+  <script src="./src/scripts/engine.js"></script>
+
+</body>
+
+</html>
